@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import { ThemeProvider } from 'styled-components';
 import Chatbot from 'react-simple-chatbot'
 function App() {
-  const [tfValues, settfValues] = useState(false);
+  const [tfValues, settfValues] = useState(true);
  function chatbot_close(){
     settfValues(!tfValues);
   }
@@ -52,7 +52,7 @@ function App() {
         message: 'For any queries go to our contact page',
         end: true,
       },
-    ]} headerTitle="Hi, there" opened={tfValues} toggleFloating={true} style={{height:"59vh",width:"41vh"}} contentStyle={{height: '41vh',opacity:"1"}} floatingStyle ={{height: '18vh'}} footerStyle={{height: '8vh'}}/>
+    ]} headerTitle="Hi, there" opened={tfValues} toggleFloating={true} style={{height:"59vh",width:"38vh"}} contentStyle={{height: '41vh',opacity:"1"}} floatingStyle ={{height: '18vh'}} footerStyle={{height: '8vh'}}/>
     </ThemeProvider>
 
    <img onClick={chatbot_close} src={tfValues?"images/cross-ico.svg":'images/chat-ico.svg'} className={tfValues?'moving-images':'moving-image'}/>

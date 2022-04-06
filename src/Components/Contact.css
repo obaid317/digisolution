@@ -127,9 +127,16 @@ textarea::placeholder{
 @media screen and (max-width: 350px){
     .form-container{
         margin: 4%;
-        width: 280px;
+        width: 259px;
     }
     .input-decoration-inquiry-form {
-        width: 235px;
+        width: 220px;
+    }
+    .contact-details-text{
+        padding-left:10px ;
+        font-size: 12px;
+    }
+    .contact-cont-one{
+        padding-left: 45px;
     }
 }

@@ -29,7 +29,12 @@ function Navbar() {
 
 <div className="navbar-container">
 <img className='logo' src='images/horizontal-logo-black.png' />
+
 <div className='menu-icon' onClick={handleClick}>
+<div>
+   <img className='w-apps' onClick={() => window.open("https://api.whatsapp.com/send?phone=+971501828784")} src="icons/abc.svg"/>
+     
+</div>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
 <ul className={click ? 'nav-menu active' : 'nav-menu'}>

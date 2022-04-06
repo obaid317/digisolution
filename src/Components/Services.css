@@ -85,6 +85,10 @@ font-size: 53px;
          display: inline;
          padding-bottom: 20px;
      }
+
+     .services-image{
+        margin-left: 10%;
+     }
      .service-heading{
          font-size: 36px;
      }
@@ -109,6 +113,7 @@ font-size: 53px;
     }
     .services-text{
         text-align: center;
+        font-size: 13px;
     }
     .service-heading{
         font-size: 36px;
@@ -127,9 +132,23 @@ font-size: 53px;
 }
    
   }
+  @media screen and (max-width: 460px){
+    .services-image {
+        margin-left: 0%;
+    }
+
+    .services-text{
+        text-align: center;
+        font-size: 10px;
+    }  
+}
+
   @media screen and (max-width: 368px){
     .services-image {
         height: 206px;
         width: 206px;
+    }
+    .img-par{
+        padding: 1px;
     }
   }

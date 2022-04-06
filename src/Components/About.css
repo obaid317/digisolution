@@ -59,7 +59,7 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding-top: 26px; 
+    padding-top: 17px; 
     padding-bottom: 11px;
 }
 .span-head{
@@ -122,15 +122,18 @@
     }
     .ftwo{
         display: block;
+        margin-right:5%; 
     }
     .about-cont{
-        height: 1024px;
+        height: 954px;
     }
     .ao {
-        width: 70%;
-        padding-right: 0%;
-    padding-bottom: 18px;
+        width: 100%;
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 18px;
     }
+     
  }
  
  @media screen and (max-width: 698px) {
@@ -138,27 +141,50 @@
         width: 100%;
    
     }
+    .card-head{
+        font-size: 16px;
+    }
     .about-cont{
-        height: 1094px;
+        height: 944px;
     }
     .card-comp-up{
         height: 20%;
     }
+    .main-head{
+        font-size: 20px;
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+ }
+ @media screen and (max-width: 550px){
+    .about-cont{
+        height: 1044px;
+    }
+    
  }
  @media screen and (max-width: 460px){
     .about-cont{
-        height: 1194px;
+        height: 1134px;
+    }
+    .main-head{
+        display: inline;
+        padding-top: 10px;
     }
  }
- @media screen and (max-width: 378px){
+ @media screen and (max-width: 388px){
 .about-cont{
-    height: 1298px;
+    height: 1148px;
+}
+.ptext {
+    padding: 9px;
+    color: #333533;
+    font-size: 15px;
 }
  }
  
  @media screen and (max-width: 319px){
     .about-cont{
-        height: 1347px;
+        height: 1317px;
     }
 
      }
