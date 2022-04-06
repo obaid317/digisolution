@@ -1,0 +1,134 @@
+.footer-main{
+    background-color: #333533;
+    justify-content: centre;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(../../images/footer.png);
+    object-fit: cover;
+    background-position: right;
+    background-size: contain;
+    background-position-x: 105%;
+    
+}
+.footer-first-container{
+  padding: 6%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.footer-right-cont{
+display: flex;
+}
+.alaal{
+fill: white;
+opacity: 0.5;
+background-color: aliceblue;
+border-radius:33px ;
+padding: 2px;
+margin-right:15px ;
+}
+.heading-footer-social{
+  color:white;
+font-weight: bold;
+font-size: 20px;
+}
+.heading-cont-one{
+padding-top: 0%;
+color:#A5A6A5;
+font-weight: bold;
+}
+.body-cont-one{
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.social-media-logo{
+padding-top:25px;
+}
+.hrrr{
+  height:  20px;
+  color: white;
+  margin: 20px;
+}
+.ab-ab{
+  width: -webkit-fill-available;
+  justify-content: centre;
+  
+}
+.endfooter{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.logo-footer{
+  height: 30px;
+  margin : 20px;
+}
+.end-footer-real{
+  display: flex;
+  justify-content: space-between;
+}
+.abcd{
+  color: white;
+  margin : 26px;
+}
+.abbb:hover{
+  transform:scale(1.1);
+  background-color: white;
+}
+.alaal:hover{
+    transform:scale(1.3);
+    background-color: #ff7b00;
+    opacity: 1;
+}
+.eval{
+width: 45%;
+padding-left: 10%;
+}
+@media screen and (max-width: 768px) {
+  .footer-first-container{
+    display: block;
+  }
+  .body-cont-one{
+    font-size: 10px;
+  }
+  .heading-cont-one{
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  .heading-footer-social{
+    font-size: 15px;
+  }
+  .logo-footer {
+    height: 20px;
+    margin: 15px;
+}
+  .eval{
+    width: 100%;
+  padding-left: 10px;
+  }
+  .hallo{
+    padding-left: 12px;
+  }
+  .abcd{
+    font-size: 6px;
+    margin:0;
+    padding-top: 26px;
+  }
+  .footer-first-container{
+    padding: 4%;
+    width: 100%;
+  }
+  .endfooter{
+    padding-left: 6%;
+    padding-right: 9%;
+  }
+}
+@media screen and (max-width: 350px){
+  .footer-main{
+    background-position-x: 115%;
+  }
+}

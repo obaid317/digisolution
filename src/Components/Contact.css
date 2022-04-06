@@ -1,0 +1,135 @@
+.contact-main{
+    justify-content:space-around;
+    display: flex;
+    background-color:#FFF8F2;
+    height: 100%;
+}
+
+.contact-one-head{
+   
+    font-size: 40px;
+    color: #FF7B00;
+    font-weight: bold;
+}
+.contact-one-heads{
+   
+    font-size: 30px;
+    color: #FF7B00;
+    font-weight: bold;
+}
+.us{
+    color: #333533;
+}
+.contact-cont-one{
+    height: 90vh;
+    padding-left: 111px;
+    padding-top: 155px;
+}
+.contact-details{
+    display: flex;
+    padding-top: 25px;
+}
+.contact-details-text{
+    padding-left: 25px;
+    color: #333533;
+    font-size: 17px;
+}
+.contact-inquiry-cont{
+  
+    padding-right: 111px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+.form-container{
+    background-image: url("../../public/images/waves.png") ;
+padding: 20px;
+margin: 20px;
+width: 400px;
+text-align: center;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    background-position: top;
+    object-fit: scale-down;
+}
+.input-decoration-inquiry-form{
+    padding: 4px;
+    line-height: normal;
+    margin: 7px;
+    height: 37px;
+    width: 306px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F8F8F8;
+}
+input::placeholder {
+    text-align: start;
+    padding-left: 12px;
+    justify-content: start;
+    opacity: 0.3;
+}
+.bttn-submit{
+    background-color: #FF7B00;
+    border: none;
+    height: 35px;
+    width: 115px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.padding-dall{
+padding-left: 33%;
+}
+textarea::placeholder{
+    padding-left: 12px;
+    opacity: 0.3;
+}
+.show-error{
+    padding-top: 20px;
+    color:  #FF7B00;
+}
+@media screen and (max-width: 960px) {
+     .contact-main{
+         display: block;
+         justify-content: center;
+     }
+     .contact-cont-one {
+        height: 50%;
+        padding-top: 40px;
+    padding-left: 65px;
+    }
+    .form-container{
+        margin: 11%;
+        width: 300px;
+    }
+    .input-decoration-inquiry-form{
+        width: 253px;
+    } 
+    .contact-inquiry-cont {
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    
+   
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .main-services-container {
+  
+        padding-left: 0px;
+    }
+
+ }
+ 
+@media screen and (max-width: 350px){
+    .form-container{
+        margin: 4%;
+        width: 280px;
+    }
+    .input-decoration-inquiry-form {
+        width: 235px;
+    }
+}

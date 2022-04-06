@@ -1,0 +1,135 @@
+.serv-main{
+    display: flex;
+    height : 80%;
+    background-color: white;
+}
+.bkgrnd-img-one{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ; 
+  align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 20%;
+}
+.main-services-container{
+display: flex;
+padding-top: 5%;
+padding-bottom: 5%;
+align-items: center;
+}
+.service-heading{
+    font-size: 45px;
+   
+    font-weight: bold;
+    color: #246FB3;
+
+}
+.hyprlnk{
+    color: #246FB3;
+}
+.head-end{
+ 
+color:  #333533;    
+}
+.services-content{
+    width: 40%;
+
+}
+.services-text{
+    padding-top: 54px;
+    line-height: 2;
+
+}
+.img-par{
+    padding: 26px;
+    font-size: 25px;
+    justify-content: center;
+}
+.space-between-o{
+    color: white;
+    width: 20%;
+}
+
+.space-between{
+    color: white;
+    width: 15%;
+}
+.services-image{
+    justify-content: center;
+    text-align: center;
+align-items: center;
+ height:290px;
+ width :290px;
+ background-image: url("../../images/ladder.png");
+ background-repeat: no;
+ background-size: cover;  
+}
+.image-text{
+    align-items: center;
+     
+    padding-top: 20px;
+    border-radius: 15px;
+    height: inherit;
+    color: white; 
+    background-color: rgba(0,0,0,.4);
+    
+}
+.twelve{
+ 
+    color: white;
+font-size: 53px;
+}
+@media screen and (max-width: 960px) {
+     .main-services-container{
+         display: inline;
+         padding-bottom: 20px;
+     }
+     .service-heading{
+         font-size: 36px;
+     }
+     .services-content {
+        width: 86%;
+    }
+    .img-par{
+        padding:15px;
+    }
+  .space-between{
+      width: 0%;
+  }
+}
+  
+  @media screen and (max-width: 768px) {
+    .main-services-container{
+        display: inline;
+        padding-bottom: 20px;
+    }
+    .img-par{
+        font-size: 20px;
+    }
+    .services-text{
+        text-align: center;
+    }
+    .service-heading{
+        font-size: 36px;
+        text-align: center;
+        font-weight: 900;
+    }
+    .services-image{
+        height: 264px;
+        width: 264px;
+    }
+    .services-content {
+       width: 86%;
+   } 
+   .img-par{
+    padding: 28px;
+}
+   
+  }
+  @media screen and (max-width: 368px){
+    .services-image {
+        height: 206px;
+        width: 206px;
+    }
+  }
