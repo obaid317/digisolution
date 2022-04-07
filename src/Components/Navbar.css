@@ -199,7 +199,10 @@
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
-
+.w-app{
+  height: 0px;
+  width: 0px;
+}
   .nav-links-mobile:hover {
     background: #fff;
     color: #242424;

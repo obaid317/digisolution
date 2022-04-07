@@ -23,8 +23,7 @@
     grid-row-gap: 10px;
 }
 .bg-imag{
-    height: 620px;
-    width: 15%;
+    height: 620px; 
     overflow: hidden;
 }
 .img-client{
@@ -74,7 +73,7 @@ padding-right:20px;
 @media screen and (max-width: 960px) {
     .img-container{
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap:0px;
+        grid-column-gap:40px;
         padding-bottom: 30px;
     }
     .client-cont{
@@ -85,6 +84,12 @@ padding-right:20px;
     }
  }
  
- @media screen and (max-width: 768px) {
-    
- }
+ @media screen and (max-width: 498px) {
+    .img-container{
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 0%;
+    }
+    .img-client{
+width: 172px;
+
+    } }
