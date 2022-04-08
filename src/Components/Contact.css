@@ -1,8 +1,8 @@
 .contact-main{
-    justify-content:space-around;
+    justify-content:space-between;
     display: flex;
     background-color:#FFF8F2;
- 
+    height: auto;
 }
 
 .contact-one-head{
@@ -21,8 +21,8 @@
     color: #333533;
 }
 .contact-cont-one{
-    height: 90vh;
-    padding-left: 111px;
+ 
+    padding-left: 15%;
     padding-top: 155px;
 }
 .contact-details{
@@ -36,7 +36,7 @@
 }
 .contact-inquiry-cont{
   
-    padding-right: 111px;
+    padding-right: 15%;
     padding-top: 35px;
     padding-bottom: 20px;
 
