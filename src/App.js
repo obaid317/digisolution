@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import { ThemeProvider } from 'styled-components';
 import Chatbot from 'react-simple-chatbot'
 function App() {
-  const [tfValues, settfValues] = useState(true);
+  const [tfValues, settfValues] = useState(false);
  function chatbot_close(){
     settfValues(!tfValues);
   }
