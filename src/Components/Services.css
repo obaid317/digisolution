@@ -87,7 +87,7 @@ font-size: 53px;
      }
 
      .services-image{
-        margin-left: 10%;
+        margin-left: 15%;
      }
      .service-heading{
          font-size: 36px;
@@ -123,6 +123,7 @@ font-size: 53px;
     .services-image{
         height: 264px;
         width: 264px;
+        margin-left: 12%;
     }
     .services-content {
        width: 86%;
@@ -130,17 +131,25 @@ font-size: 53px;
    .img-par{
     padding: 28px;
 }
+.space-between-o{
+    color: white;
+    width: 0%;
+}
    
   }
   @media screen and (max-width: 460px){
     .services-image {
-        margin-left: 0%;
+        margin-left: 5%;
     }
 
     .services-text{
         text-align: center;
         font-size: 13px;
     }  
+    .space-between-o{
+        color: white;
+        width: 0%;
+    }
 }
 
   @media screen and (max-width: 368px){

@@ -2,7 +2,7 @@
     justify-content:space-around;
     display: flex;
     background-color:#FFF8F2;
-    height: 100%;
+ 
 }
 
 .contact-one-head{
@@ -43,8 +43,7 @@
 }
 .form-container{
     background-image: url("../../public/images/waves.png") ;
-padding: 20px;
-margin: 20px;
+padding: 20px; 
 width: 400px;
 text-align: center;
     height: fit-content;
@@ -91,17 +90,16 @@ textarea::placeholder{
     color:  #FF7B00;
 }
 @media screen and (max-width: 960px) {
-     .contact-main{
-         display: block;
-         justify-content: center;
+     .contact-main{ 
+         justify-content: space-around;
      }
      .contact-cont-one {
         height: 50%;
-        padding-top: 40px;
-    padding-left: 65px;
+    
+    padding-left: 5px;
     }
     .form-container{
-        margin: 11%;
+        margin-top: 11%;
         width: 300px;
     }
     .input-decoration-inquiry-form{
@@ -110,8 +108,9 @@ textarea::placeholder{
     .contact-inquiry-cont {
         padding-right: 0px;
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
+    
     
    
  }
@@ -121,9 +120,35 @@ textarea::placeholder{
   
         padding-left: 0px;
     }
+    .contact-main{ 
+ 
+        justify-content: space-around;
+    }
 
  }
+ @media screen and (max-width: 598px) {
+    .contact-main{     
+        padding-left: 20%;
+ display: block;
+        justify-content: space-around;
+    }
+.contact-cont-one{
+    padding-top: 60px;
+} 
+}
+ @media screen and (max-width: 451px) {
+    .contact-main{     
+        padding-left: 15%;
+ display: block;
+        justify-content: space-around;
+    }
+ }
+ @media screen and (max-width: 451px) {
+    .contact-main{     
+        padding-left: 10%;
  
+    }
+ }
 @media screen and (max-width: 350px){
     .form-container{
         margin: 4%;

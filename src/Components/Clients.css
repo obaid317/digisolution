@@ -25,6 +25,7 @@
 .bg-imag{
     height: 620px; 
     overflow: hidden;
+    width: 20%;
 }
 .img-client{
      width: 150px;
@@ -67,7 +68,7 @@ padding-right:20px;
 }
 .bg-imag-two{
     height: 620px;
-    width: 15%;
+    width: 20%;
     overflow: hidden;
 }
 @media screen and (max-width: 960px) {
@@ -87,7 +88,8 @@ padding-right:20px;
  @media screen and (max-width: 498px) {
     .img-container{
         grid-template-columns: repeat(1,1fr);
-        padding-top: 0%;
+        padding-top: 5%;
+    padding-left: 10%;
     }
     .img-client{
 width: 172px;
