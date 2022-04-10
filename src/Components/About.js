@@ -44,7 +44,7 @@ and features the.</p>
 </div>
 <div className='ao'>
 <div className='card-comp-up'>
-  <p className='card-head'>Consultation Nabidh Integration</p>
+  <p className='card-head'>Consultation for Nabidh Integration</p>
 
 </div>
 <div className='card-comp-down' >
@@ -75,6 +75,20 @@ and features the.</p>
 <div className='more-info'> <p onClick={() => window.open("https://digitalicare.com/")}  >more info...</p> </div>
 </div>
 </div>
+
+</div>
+<div className='ftwos'>
+<div className='aos'>
+<div className='card-comp-ups'>
+  <p className='card-head'>Consultation for Malafi Integration</p>
+
+</div>
+<div className='card-comp-downs'>
+<p className='ptext'>A healthcare platform to securely exchange trusted healthcare information across public and private facilities in Abu-Dhabi.</p>
+<div className='more-info' > <p>more info...</p> </div>
+</div>
+</div>
+ 
 
 </div>
      </div>   
