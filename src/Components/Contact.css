@@ -66,7 +66,7 @@ input::placeholder {
     text-align: start;
     padding-left: 12px;
     justify-content: start;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 .bttn-submit{
     background-color: #FF7B00;
@@ -83,7 +83,7 @@ padding-left: 33%;
 }
 textarea::placeholder{
     padding-left: 12px;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 .show-error{
     padding-top: 20px;

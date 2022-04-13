@@ -66,6 +66,7 @@ text-align: center;
   color: #2c3233;
 }
 .lost-text{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-left: 5%;
   font-size: 130px;
   color: #ff7b00;
@@ -73,7 +74,7 @@ text-align: center;
 }
 .lost-cont{
   width: 480px ;
- padding-top: 5%;
+ padding-top: 4%;
 }
 .lost-here{
   text-align: center;

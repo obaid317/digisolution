@@ -85,11 +85,10 @@ and features the.</p>
 </div>
 <div className='card-comp-downs'>
 <p className='ptext'>A healthcare platform to securely exchange trusted healthcare information across public and private facilities in Abu-Dhabi.</p>
-<div className='more-info' > <p>more info...</p> </div>
+<div className='more-info' onClick={() => window.open("https://malaffi.ae/connected-emrs")} > <p>more info...</p> </div>
 </div>
 </div>
  
-
 </div>
      </div>   
       
