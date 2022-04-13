@@ -94,7 +94,7 @@ and features the.</p>
      </div>   
       
      <div className='bkgrnd-image-two'>
-     <motion.img src='images/tooth.png' height={190} width={195} transition={bounceTransition}
+     <motion.img src={require("./images/tooth.png").default} height={190} width={195} transition={bounceTransition}
        animate={{
         y: ["300%", "0%"],
        

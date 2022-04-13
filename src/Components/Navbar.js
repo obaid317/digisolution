@@ -1,5 +1,7 @@
 import React,  { useState, useEffect } from 'react'
 import {Link} from "react-scroll"
+import logo from "./images/horizontal-logo-black.png"
+import wapps from "./icons/abc.svg";
 import '../Components/Navbar.css'
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,11 +30,11 @@ function Navbar() {
 
 
 <div className="navbar-container">
-<img className='logo' src='images/horizontal-logo-black.png' />
+<img className='logo' src= {logo} />
 
 <div className='menu-icon' onClick={handleClick}>
 <div>
-   <img className='w-apps' onClick={() => window.open("https://api.whatsapp.com/send?phone=+971501828784")} src="icons/abc.svg"/>
+   <img className='w-apps' onClick={() => window.open("https://api.whatsapp.com/send?phone=+971501828784")} src={wapps}/>
      
 </div>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -101,7 +103,7 @@ function Navbar() {
             </li>
             <li className='nav-item' >
              
-             <img className='w-app' onClick={() => window.open("https://api.whatsapp.com/send?phone=+971501828784")} src="icons/abc.svg"/>
+             <img className='w-app' onClick={() => window.open("https://api.whatsapp.com/send?phone=+971501828784")} src={wapps}/>
              
             </li>
 

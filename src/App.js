@@ -1,6 +1,8 @@
 import Navbar from "./Components/Navbar";
 import './App.css'
 import Home from "./Components/home";
+import chicon from './Components/images/cross-ico.svg'
+import hicon from './Components/images/chat-ico.svg'
  import About from "./Components/About";
 import Services from "./Components/Services";
 import Clients from "./Components/Clients";
@@ -55,7 +57,7 @@ function App() {
     ]} headerTitle="Hi, there" opened={tfValues} toggleFloating={true} style={{height:"59vh",width:"38vh"}} contentStyle={{height: '41vh',opacity:"1"}} floatingStyle ={{height: '18vh'}} footerStyle={{height: '8vh'}}/>
     </ThemeProvider>
 
-   <img onClick={chatbot_close} src={tfValues?"images/cross-ico.svg":'images/chat-ico.svg'} className={tfValues?'moving-images':'moving-image'}/>
+   <img onClick={chatbot_close} src={tfValues?chicon:hicon} className={tfValues?'moving-images':'moving-image'}/>
    </div>
   </div>
 <Home/>  
