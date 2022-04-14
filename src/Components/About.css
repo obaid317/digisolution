@@ -153,6 +153,10 @@
     padding: 5px;
     text-align: end;
 }
+.abcde{
+    cursor: pointer;
+    color: #246FB3;
+}
 @media screen and (max-width: 960px) {
     .main-head{
         font-size: 26px;

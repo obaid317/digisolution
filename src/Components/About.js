@@ -41,7 +41,7 @@ function About() {
 masterfully accommodates the need of 
 both general dentists and orthodontists 
 and features the.</p>
-<div onClick={() => window.open("https://www.carestreamdental.com/en-gb/csd-products/practice-management-software/cs-r4/")} className='more-info'> <p>more info...</p> </div>
+<div onClick={() => window.open("https://www.carestreamdental.com/en-gb/csd-products/practice-management-software/cs-r4/")} className='more-info'> <p className='abcde'>more info...</p> </div>
 </div> 
 </div>
 <div className='ao'>
@@ -51,7 +51,7 @@ and features the.</p>
 </div>
 <div className='card-comp-down' >
 <p className='ptext'>A healthcare platform to securely exchange trusted healthcare information across public and private facilities in Dubai.</p>
-<div className='more-info' onClick={() => window.open("https://www.carestreamdental.com/en-gb/csd-products/practice-management-software/cs-r4/")} > <p  >more info...</p> </div>
+<div className='more-info' onClick={() => window.open("https://www.carestreamdental.com/en-gb/csd-products/practice-management-software/cs-r4/")} > <p className='abcde' >more info...</p> </div>
 </div>
 </div>
 
@@ -64,7 +64,7 @@ and features the.</p>
 </div>
 <div className='card-comp-down'>
 <p className='ptext'>If you’re keen to have state-of-the- art technology for your healthcare facility, DigiSol is the perfect avenue for you to do business.</p>
-<div className='more-info' > <p>more info...</p> </div>
+<div className='more-info' > <p className='abcde'>more info...</p> </div>
 </div>
 </div>
 <div className='ao'>
@@ -74,7 +74,7 @@ and features the.</p>
 </div>
 <div className='card-comp-down'>
 <p  className='ptext'>A healthcare platform to securely exchange trusted healthcare information across public and private facilities in Dubai.</p>
-<div className='more-info'> <p onClick={() => window.open("https://digitalicare.com/")}  >more info...</p> </div>
+<div className='more-info'> <p onClick={() => window.open("https://digitalicare.com/")} className='abcde' >more info...</p> </div>
 </div>
 </div>
 
@@ -87,7 +87,7 @@ and features the.</p>
 </div>
 <div className='card-comp-downs'>
 <p className='ptext'>A healthcare platform to securely exchange trusted healthcare information across public and private facilities in Abu-Dhabi.</p>
-<div className='more-info' onClick={() => window.open("https://malaffi.ae/connected-emrs")} > <p>more info...</p> </div>
+<div className='more-info' onClick={() => window.open("https://malaffi.ae/connected-emrs")} > <p className='abcde' >more info...</p> </div>
 </div>
 </div>
  

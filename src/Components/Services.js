@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'; 
+import img1 from "./images/internet.png"
 import "./Services.css";
 function Services() {
   let urll="https://nabidh.ae/#/comm/landing";
@@ -19,7 +20,7 @@ function Services() {
   return (
     <div className='serv-main' id='about'>
  <div className='bkgrnd-img-one'>
-<motion.img src='images/internet.png' height={216} width={196}  transition={bounceTransition}
+<motion.img src={img1} height={216} width={196}  transition={bounceTransition}
         animate={{
           y: ["50%", "-50%"],
          
