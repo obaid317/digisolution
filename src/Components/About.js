@@ -1,4 +1,6 @@
 import React from 'react';
+import img1 from "./images/scope.png"
+import img2 from "./images/tooth.png"
 import {motion} from 'framer-motion'; 
 import "../Components/About.css"
 function About() {
@@ -18,7 +20,7 @@ function About() {
   return (
     <div className='about-cont' id='services'>
      <div className='bkgrnd-image-one'>
-<motion.img src='images/Scope.png' height={216} width={230}  transition={bounceTransition}
+<motion.img src={img1} height={216} width={230}  transition={bounceTransition}
         animate={{
           y: ["-50%", "150%"],
          
@@ -93,7 +95,7 @@ and features the.</p>
      </div>   
       
      <div className='bkgrnd-image-two'>
-     <motion.img src={require("./images/tooth.png").default} height={190} width={195} transition={bounceTransition}
+     <motion.img src={img2} height={190} width={195} transition={bounceTransition}
        animate={{
         y: ["300%", "0%"],
        
