@@ -79,7 +79,7 @@ function Contactus() {
 </div>
 <div className='contact-details'>
 <img src='images/whatsapp.svg' height={"29px"}/>
-<p className='contact-details-text'>info@digisolteam.com</p>
+<p className='contact-details-text'>+971 50 182 8768</p>
 </div>
 
         </div>

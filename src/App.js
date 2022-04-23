@@ -41,7 +41,7 @@ function App() {
       <Chatbot  steps={[
       {
         id: '1',
-        message: 'Wellcome to Digisol,How may i assist you',
+        message: 'Welcome to Digisol, How may i assist you',
         trigger: '2',
       },
       {
@@ -51,10 +51,10 @@ function App() {
       },
       {
         id: '3',
-        message: 'For any queries go to our contact page',
+        message: 'Sorry, We are currently off, contact us through e-mail',
         end: true,
       },
-    ]} headerTitle="Hi, there" opened={tfValues} toggleFloating={true} style={{height:"59vh",width:"38vh"}} contentStyle={{height: '41vh',opacity:"1"}} floatingStyle ={{height: '18vh'}} footerStyle={{height: '8vh'}}/>
+    ]} headerTitle="Hi there!" opened={tfValues} toggleFloating={true} style={{height:"59vh",width:"38vh"}} contentStyle={{height: '41vh',opacity:"1"}} floatingStyle ={{height: '18vh'}} footerStyle={{height: '8vh'}}/>
     </ThemeProvider>
 
    <img onClick={chatbot_close} src={tfValues?chicon:hicon} className={tfValues?'moving-images':'moving-image'}/>
