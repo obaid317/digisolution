@@ -1,7 +1,7 @@
 {
   "name": "digisol",
   "version": "0.1.0",
-  "homepage": "https://digisolteam.com/development/",
+  "homepage": "https://digisolteam.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
