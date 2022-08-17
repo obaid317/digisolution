@@ -34,7 +34,7 @@ function Navbar() {
 
 <div className='menu-icon' onClick={handleClick}>
 <div>
-   <img className='w-apps' onClick={() => window.open("https://api.whatsapp.com/send?phone=971501828784")} src={wapps}/>
+   <img className='w-apps' onClick={() => window.open("https://api.whatsapp.com/send?phone=971565967567")} src={wapps}/>
      
 </div>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -103,7 +103,7 @@ function Navbar() {
             </li>
             <li className='nav-item' >
              
-             <img className='w-app' onClick={() => window.open("https://api.whatsapp.com/send?phone=971501828784")} src={wapps}/>
+             <img className='w-app' onClick={() => window.open("https://api.whatsapp.com/send?phone=971565967567")} src={wapps}/>
              
             </li>
 
